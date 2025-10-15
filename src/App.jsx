@@ -5,6 +5,7 @@ import './App.css'
 import LoginScreen from './component/LoginScreen'
 import Message from './component/Message'
 import Resours from "./component/ResourcesPage"
+import Dashboard from './component/Dashboard'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -13,6 +14,7 @@ function App() {
     <LoginScreen/>
     <Message/>
     <Resours/>
+    <Dashboard/>
     
      {/* <div>hello</div> */}
     </>
